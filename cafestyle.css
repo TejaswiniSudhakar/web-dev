@@ -1,0 +1,247 @@
+nav,header,footer {
+  display: block;
+}
+body {
+  line-height: 1;
+  margin: 0;
+  background-color: #f2f2f2 !important;
+}
+nav {
+  width: 100%;
+  margin: 0;
+}
+nav ul {
+  background-color: #f2f2f2;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+ul.topnav li {
+  list-style: none;
+  float: left;
+}
+ul.topnav li.topnav-right {
+  float: right;
+}
+ul.topnav li a {
+  display: block;
+  text-decoration: none;
+  min-height: 16px;
+  font-size: 20px;
+  text-align: center;
+  padding: 14px;
+  text-transform: uppercase;
+  color: black;
+  margin-top: 20px;
+  font-family: 'Forum', cursive;
+}
+ul.topnav li a:hover {
+  color: #ffcc00;
+}
+ul.topnav li.dropdown {
+  display:none;
+}
+ul.topnav li.dropdownIcon {
+  display:none;
+}
+div.section1 {
+  position:relative;
+  text-align:center;
+}
+div.centertext h1, div.centertext h3{
+  position: absolute;
+  top : 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-transform: uppercase;
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+  font-size: 55px;
+  color: white;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.row::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+div.leftimage {
+  margin-left: 280px;
+  margin-top: 0;
+}
+
+div.righttext h3{
+  font-size: 40px;
+  font-family: 'Dancing Script', cursive;
+  margin-right: 220px;
+  color: #666633;
+}
+
+div.righttext p {
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-right: 220px;
+  font-family: 'Forum', cursive;
+  color: #737373;
+}
+
+div.righttext h5 {
+  font-size: 25px;
+  font-family: 'Dancing Script', cursive;
+  margin-right: 220px;
+  color: #666633;
+}
+
+div.parallaxtext {
+  height: 300px;
+  text-align: center;
+}
+div.parallaxtext h3 {
+  font-size: 35px;
+  font-family: 'Dancing Script', cursive;
+  color: #666633;
+  margin-top: 10px;
+  padding-bottom: 30px;
+}
+div.parallaxtext p {
+  font-size: 18px;
+  line-height: 20px;
+  font-family: 'Forum', cursive;
+  color: #737373;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-transform: uppercase;
+
+}
+div.section4{
+  margin-top: 5px;
+}
+.hr {
+  color: black;
+}
+div.footer{
+  width: 100%;
+  height: 130px;
+  background-color: #f2f2f2;
+  text-align: center;
+  margin-top: 0;
+}
+.endlogo {
+  margin-top: 2px;
+}
+div.footertext {
+  padding-top: 0;
+  color: black;
+  font-family: 'Forum', cursive;
+  font-size: 20px;
+}
+div.footertext h5 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+div.d-block {
+  align-items: center;
+  display: block;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+@media screen and (max-width: 680px) {
+  ul.topnav li:not(:nth-child(1)) {
+    display:none;
+  }
+  ul.topnav li.dropdownIcon {
+    display:block;
+    float:right;
+  }
+  ul.topnav.responsive li.dropdownIcon {
+    position: absolute;
+    top:0;
+    right:0;
+  }
+  ul.topnav.responsive {
+    position:relative;
+  }
+  ul.topnav.responsive li {
+    display:inline;
+    float:none;
+  }
+  ul.topnav.responsive li a {
+    display:block;
+    text-align: left;
+  }
+  div.col-6{
+    width: 100% !important;
+    margin: 0;
+}
+.col-6 {
+    max-width: 100% !important;
+}
+div.col-2{
+  width: 50%;
+  margin: 0;
+}
+div.leftimage {
+  margin-left: 168px;
+}
+div.righttext {
+  padding:0;
+  margin-left: 10px;
+  width: 500px;
+}
+div.parallaxtext {
+  height: 400px;
+}
+div.parallaxtext p {
+  font-size: 15px;
+}
+div.section4{
+  margin-top: 10px;
+}
+}
